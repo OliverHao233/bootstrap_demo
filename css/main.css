@@ -1,3 +1,7 @@
+a:hover {
+  text-decoration: none;
+}
+
 .navbar-brand {
   background-image: url(../img/logo.png);
   width: 200px;
@@ -22,9 +26,14 @@
 }
 
 .news-title {
+  color: #444;
   font-size: 18px;
   font-weight: bold;
   line-height: 1.5;
+}
+
+.news-title:hover {
+  color: #337ab7;
 }
 
 .news-info {
@@ -49,4 +58,27 @@
 }
 .news-list-item .col-xs-7 {
   padding-right: 0;
+}
+
+.search-button {
+  background-color: #d02424;
+  border: none;
+}
+
+.search-button:hover {
+  background-color: #bb2424;
+}
+
+.side-bar-card {
+  background-color: rgba(0,0,0,0.1);
+  clear: both;
+}
+
+.search-bar {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.search-bar .col-xs-9 {
+  padding: 0;
 }
