@@ -70,7 +70,13 @@ a:hover {
 }
 
 .side-bar-card {
+  margin-bottom: 10px;
+}
+
+.side-bar-card,
+.side-bar-news {
   background-color: rgba(0,0,0,0.1);
+  padding: 2px 5px;
   clear: both;
 }
 
@@ -81,4 +87,24 @@ a:hover {
 
 .search-bar .col-xs-9 {
   padding: 0;
+}
+
+.card-news-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 33.33%;
+}
+
+.side-bar-news a{
+  color: black;
+}
+
+.side-bar-news .card-news-body:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.card-news-info {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: #999;
 }
